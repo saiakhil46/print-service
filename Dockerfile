@@ -1,4 +1,4 @@
-FROM circleci/node:8.11.2-stretch as build
+FROM circleci/node:8.11.4-stretch as build
 MAINTAINER "Mahesh Kumar Gangula" "mahesh@ilimi.in"
 USER root
 COPY src /opt/print-service/
